@@ -1,20 +1,20 @@
-<div class="container-products">
-    <!-- Producto 1 -->
-    @foreach ($producto as $pr) 
-    <div class="card-product">
+<div class="container-products ">
+    <div class="d-flex .align-content-sm-center flex-wrap" style="justify-content: center">
+
+        <!-- Producto 1 -->
+        @foreach ($producto as $pr) 
+        <div class="card-product">
         <div class="container-img">
             <img src="/imagen/{{$pr->imagen}}" alt="Cafe Irish" />
             <span class="discount">-13%</span>
             <div class="button-group">
                 <span>
-                    <i class="fa-regular fa-eye"></i>
+                    <p class="price">Categoria: {{$pr['categoria']}}</p>
                 </span>
                 <span>
-                    <i class="fa-regular fa-heart"></i>
+                    <p class="price">{{$pr['descripcion']}}</p>
                 </span>
-                <span>
-                    <i class="fa-solid fa-code-compare"></i>
-                </span>
+              
             </div>
         </div>
         <div class="content-card-product">
@@ -33,5 +33,6 @@
         </div>
     </div>
     @endforeach
+</div>
 </div>
 </section>
