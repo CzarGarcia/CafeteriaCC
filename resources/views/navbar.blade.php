@@ -7,9 +7,9 @@
                 <div class="content-customer-support">
                 </div>
             </div>
-            <div class="container-logo">
-                <i class="fa-solid fa-mug-hot"></i>
-                <h1 class="logo"><a href="{{route('inicio')}}">Coffe Place</a></h1>
+            <div class="container-logo" >
+                <i class="fa-solid fa-mug-hot" ></i>
+                <h1 class="logo"><a href="{{route('inicio')}}" >Coffe Place</a></h1>
             </div>
             <div class="container-user">
                 <a href="{{route('login')}}"><i class="fa-solid fa-user"></i></a>
