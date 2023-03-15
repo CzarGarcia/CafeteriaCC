@@ -22,12 +22,13 @@
         </div>
     </div>
     <div class="container-navbar">
-        <nav class="navbar container" style="justify-content: center">
+        <nav class="navbar container">
             <i class="fa-solid fa-bars"></i>
             <ul class="menu">
                 <li><a href="{{route('inicio')}}">Inicio</a></li>
                 <li><a href="{{ route('sucursales') }}">Sucursales</a></li>
                 <li><a href="{{ asset('catalogo') }}">Catálogo</a></li>
+                <li><a href="#">Contacto</a></li>
             </ul>
         </nav>
     </div>
